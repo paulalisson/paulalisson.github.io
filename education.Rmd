@@ -1,0 +1,30 @@
+---
+title: "Education"
+---
+<style>
+body {
+text-align: justify}
+</style>
+
+ **May 2018 - present**<br/> 
+  PhD Candidate, Cognitive Sciences.<br/> 
+  Department of Linguistics. [Universität Postdam](https://www.uni-potsdam.de/en/ling/index.html), Germany.<br/>
+  First Advisor: [Shravan Vasishth](http://www.ling.uni-potsdam.de/~vasishth/).
+  
+ **2017 - 2018**<br/> 
+  Visiting grad student at [NYU Linguistics](http://as.nyu.edu/content/nyu-as/as/departments/linguistics/homepage.html) (USA)
+  
+ **2016 - 2018**     
+  M.A. English Linguistics - [Université Paris Diderot](https://universite.univ-paris-diderot.fr/structures/ufr-etudes-anglophones) (France)<br/> 
+  
+ **2012 - 2016**         
+  B.A. Modern Languages: English and French - [ULPGC](https://www.ulpgc.es/node) (Spain)<br/> 
+  
+
+# Thesis
+
+-  **M2 thesis (2018)**: On relativizer choices in French learners of English: a corpus-driven modeling approach. Mention Très Bien. Supervisor: Prof. Nicolas Ballier. *Université Paris Diderot.*
+  
+-  **M1 thesis (2017)**: A corpus-based study of lexical diversity and readability in EFL learners’ productions: towards a critical statistical approach. Mention Très Bien. Supervisor: Prof. Nicolas Ballier. *Université Paris Diderot.*
+  
+-  **BA Thesis (2016)**: L’interlangue chez les apprenants hispanophones de FLE: cas d’étude. Supervisor: Verónica Trujillo-González. *Universidad de Las Palmas de Gran Canaria.* 

@@ -1,9 +1,20 @@
 name: "paulas-website"
 output_dir: "."
 navbar:
-  title: "Paula Lissón"
+  title: "Welcome!"
   left:
     - text: "Home"
       href: index.html
-    - text: "About Me"
-      href: about.html
+    - text: "Education"
+      href: education.html
+    - text: "Publications"
+      href: publications.html
+    - text: "Presentations"
+      href: presentations.html  
+    - text: "Scholarships"
+      href: Scholarships.html  
+
+output:
+  html_document:
+    theme: flatly
+
