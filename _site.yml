@@ -1,0 +1,9 @@
+name: "paulas-website"
+output_dir: "."
+navbar:
+  title: "Paula Lissón"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About Me"
+      href: about.html
