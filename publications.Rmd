@@ -9,7 +9,7 @@ title: "Publications"
 learners: a corpus-based study. *Bellaterra Journal of Teaching & Learning Language & Literature , 10 (4), 68-86.* DOI: [10.5565/rev/jtl3.752](https://doi.org/10.5565/rev/jtl3.752)
 
 ## In Proceedings 
-1. Ballier, N., Gaillat, T., Arnold, T.,**Lissón P.** (accepted). Predicting CEFRL levels in learner English on the basis of metrics and full texts. *Conférence sur l'Apprentissage Automatique (CAP 2018), Rouen, France*.
+1. Ballier, N., Gaillat, T., Arnold, T.,**Lissón P.** (2018). Predicting CEFRL levels in learner English on the basis of metrics and full texts. *Conférence sur l'Apprentissage Automatique (CAP 2018), Rouen, France*. [[article]](https://arxiv.org/abs/1806.11099)
 
 2. Ballier, N. & **Lissón P.** (2017). R-based strategies for DH in English Linguistics: a case study. Teaching NLP for Digital Humanities, *workshop of the German Society for Computational Linguistics conference (GSCL 2017)*.In P. Bockwinkel, T. Declerck, S. Kübler, & H. Zinsmeister (Eds.), Proceedings of the Workshop on Teaching NLP for Digital Humanities (Vol. 1918, pp. 1–10). Berlin, Germany: CEUR Workshop Proceedings. [[article]](<http://ceur-ws.org/Vol-1918/ballier.pdf>)
 
