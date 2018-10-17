@@ -9,9 +9,10 @@
 <meta name="generator" content="pandoc" />
 
 
+<meta name="author" content="null" />
 
 
-<title>Scholarships</title>
+<title>Homework 1</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -22,6 +23,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
+<script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -193,7 +196,7 @@ $(document).ready(function () {
   <a href="presentations.html">Presentations</a>
 </li>
 <li>
-  <a href="Scholarships.html">Scholarships</a>
+  <a href="teaching.html">Teaching</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -207,19 +210,42 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Scholarships</h1>
+<h1 class="title toc-ignore">Homework 1</h1>
+<h4 class="author"><em>null</em></h4>
 
 </div>
 
 
-<ul>
-<li>Since May 2018: PhD candidate / research associate in the project <a href="https://www.uni-potsdam.de/sfb1287/index.html">SFB 1287 Limits of Variability in Language</a>, cluster B02, Universität Potsdam, Germany. 3 years.</li>
-<li>New York University fellowsip from the Graduate School of Arts and Sciences. 9 months. NYU, USA. 2017-2018.</li>
-<li><a href="http://www.sorbonne-paris-cite.fr/en/international/international-mobility/student-mobility/incoming-international-mobility-programme-uspc">MIEM</a> (Mobilité Entrante Internationale en Master). 10 months. Paris Diderot University (USPC), France. 2016-2017</li>
-<li>Erasmus+ traineeship mobility, 3 months, <a href="nhttp://www.nailseaschool.com">Nailsea Bristol School</a>, UK. 2016.</li>
-<li>Erasmus+ studentship mobility, 9 months, Université de Versailles Saint Quentin en Yvelines. France. 2014-2015</li>
-<li>Exemption of tuition fees due to academic merits (ULPGC, 2012 – 2013)</li>
-</ul>
+<p>This is an <a href="http://rmarkdown.rstudio.com">R Markdown</a> Notebook. When you execute code within the notebook, the results appear beneath the code. Try executing this chunk by clicking the <em>Run</em> button within the chunk or by placing your cursor inside it and pressing <em>Cmd+Shift+Enter</em>.</p>
+<pre class="r"><code>3 + 4</code></pre>
+<pre><code>## [1] 7</code></pre>
+<p>Add a new chunk by clicking the <em>Insert Chunk</em> button on the toolbar or by pressing <em>Cmd+Option+I</em>. <strong>You will have to add a block of code (by clicking in insert-R in the green button above) for the answers that require you to write some code</strong></p>
+<p>When you are done with the homework, Knit the file by cliking on the <strong>Knit</strong> icon on the upper part of the script pannel, then select <strong>knit to pdf</strong> (if you have LaTeX installed) or <strong>knit to html</strong> and upload the file to the moodle page (or if you can’t upload it send it to <a href="mailto:paula.lisson@uni-potsdam.de">paula.lisson@uni-potsdam.de</a>). The knitted file will be stored in your working directory. You can check your working directory in R by running the function getwd(), but if you did everything correctly and created a new project as indicated in the lecture, the working directory should be where the project is located.</p>
+<div id="part-1" class="section level1">
+<h1>Part 1</h1>
+<ol style="list-style-type: decimal">
+<li>On top of the file, write your name instead of “null” (<strong>author: “null”</strong>).</li>
+<li>Conceptual warm-up: read pages 1-10 of the tutorial by Danielle Navarro: <a href="https://compcogscisydney.org/lsr/lsr-0.6.pdf" class="uri">https://compcogscisydney.org/lsr/lsr-0.6.pdf</a> (for the purpose of this class, whenever the author says ‘psychology’ you can imagine it says ‘linguistics’). Now write in some lines why do you think statistics is relevant in linguistics/in your (future) research.</li>
+</ol>
+<p><strong>Answer:</strong></p>
+</div>
+<div id="part-2" class="section level1">
+<h1>Part 2</h1>
+<ol start="2" style="list-style-type: decimal">
+<li><p>Calculate the square root of 543</p></li>
+<li><p>Create a new vector with numbers from 1 to 60 and find out which class the object belongs to.</p></li>
+<li><p>Create a new vector with numbers from 1 to 150 in a sequence of ten (10,20,30.. etc) and find out its length.</p></li>
+<li><p>Create a new vector named <strong>food</strong> containing the name of 5 dishes or types of food.</p></li>
+<li><p>Create a vector containing random samples from a normal distribution with mean 30 and standard deviation 10 (tip: check the <strong>rnorm</strong> function).</p></li>
+<li><p>What does the function library() do? When do you need to use it?</p></li>
+<li><p>This is a function: lm() . Use the function help to know what the function does. What package does the function belong to?</p></li>
+<li><p>Install the following packages: MASS, ggplot2, stats. Then, load them. When do you have to install the packages and how often do you have to load them?</p></li>
+<li><p>How many types of data can atomical vectors contain? And matrices? And arrays? And data frames?</p></li>
+<li><p>What is a histogram? Why is it useful?</p></li>
+<li><p>Generate 300 random datapoints from a normal distribution. You choose the mean and the sd. Then plot a histogram of the data. Change the number of bins. Describe what happens when you change the number of bins.</p></li>
+</ol>
+<p>Useful reference: <a href="https://swcarpentry.github.io/r-novice-inflammation/13-supp-data-structures/" class="uri">https://swcarpentry.github.io/r-novice-inflammation/13-supp-data-structures/</a></p>
+</div>
 
 
 

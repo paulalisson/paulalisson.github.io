@@ -11,8 +11,8 @@ navbar:
       href: publications.html
     - text: "Presentations"
       href: presentations.html  
-    - text: "Scholarships"
-      href: Scholarships.html  
+    - text: "Teaching"
+      href: teaching.html  
 
 output:
   html_document:
