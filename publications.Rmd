@@ -2,22 +2,21 @@
 title: "Publications"
 ---
 ## In peer-reviewed journals
+Note: all journals are indexed by ERIH plus, MLA, and SCOPUS. Most of the journals are open-access. Otherwise, a link to the author version of the article is provided.
 
-1. **Lissón P.** & Trujillo-González, V. (accepted): Transferts interlangues chez des apprenants hispanophones de FLE en L3 : étude de cas dans un contexte universitaire plurilingue. *Synergies*. 
+1. **Lissón P.** & Ballier, N. (in press): Investigating lexical progression through lexical diversity metrics and vocabulary growth curves in a corpus of French L3. *Discours*. 
 
-2. **Lissón P.** (2017). Investigating the use of readability metrics to detect differences in written productions of
+2. Arnold, T., Ballier, N., **Lissón, P.**, Tilton, L. (accepted): Beyond Lexical Frequencies: Using R for Text Analysis in the Digital Humanities. *Language Resources and Evaluation*. [[link]](https://statsmaths.github.io/pdf/2018-beyond-lex.pdf)
+
+3. **Lissón P.** & Trujillo-González, V. (2018): Détection des transferts interlangues chez des apprenants universitaires de français troisième langue. *Synergies Espagne 11, 55-70*. [[link]](http://gerflint.fr/Base/Espagne11/lisson_trujillo.pdf)
+
+4. **Lissón P.** (2017). Investigating the use of readability metrics to detect differences in written productions of
 learners: a corpus-based study. *Bellaterra Journal of Teaching & Learning Language & Literature , 10 (4), 68-86.* DOI: [10.5565/rev/jtl3.752](https://doi.org/10.5565/rev/jtl3.752)
 
-## In Proceedings 
-1. Ballier, N., Gaillat, T., Arnold, T.,**Lissón P.** (2018). Predicting CEFRL levels in learner English on the basis of metrics and full texts. *Conférence sur l'Apprentissage Automatique (CAP 2018), Rouen, France*. [[article]](https://arxiv.org/abs/1806.11099)
 
-2. Ballier, N. & **Lissón P.** (2017). R-based strategies for DH in English Linguistics: a case study. Teaching NLP for Digital Humanities, *workshop of the German Society for Computational Linguistics conference (GSCL 2017)*.In P. Bockwinkel, T. Declerck, S. Kübler, & H. Zinsmeister (Eds.), Proceedings of the Workshop on Teaching NLP for Digital Humanities (Vol. 1918, pp. 1–10). Berlin, Germany: CEUR Workshop Proceedings. [[article]](<http://ceur-ws.org/Vol-1918/ballier.pdf>)
+## In peer-reviewed proceedings 
+1. Ballier, N., Gaillat, T., Arnold, T.,**Lissón P.** (2018). Predicting CEFRL levels in learner English on the basis of metrics and full texts. *Conférence sur l'Apprentissage Automatique (CAP 2018), Rouen, France*. [[link]](https://arxiv.org/abs/1806.11099)
 
-## Under review
-1. Arnold, T., Ballier, N., **Lissón, P.**, Tilton, L. Beyond Lexical Frequencies: Using R for Text Analysis in the Digital Humanities. Submitted to *Language Resources and Evaluation*.
+2. Ballier, N. & **Lissón P.** (2017). R-based strategies for DH in English Linguistics: a case study. Teaching NLP for Digital Humanities, *workshop of the German Society for Computational Linguistics conference (GSCL 2017)*.In P. Bockwinkel, T. Declerck, S. Kübler, & H. Zinsmeister (Eds.), Proceedings of the Workshop on Teaching NLP for Digital Humanities (Vol. 1918, pp. 1–10). Berlin, Germany: CEUR Workshop Proceedings. [[link]](<http://ceur-ws.org/Vol-1918/ballier.pdf>)
 
-## In preparation (draft available)
-1. Balvet, A., Ballier N. & **Lissón P.** Head nouns of noun complement clauses as discourse markers: assessing the diversity, flexibility and semantic compositionality of N+THAT structures. 
-
-2. **Lissón P.** & Ballier, N. Investigating lexical progression through lexical diversity metrics and vocabulary growth curves in a corpus of French L3. 
 
