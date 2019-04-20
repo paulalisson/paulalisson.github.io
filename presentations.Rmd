@@ -2,9 +2,11 @@
 title: "Presentations"
 ---
 ## Conference presentations
-1. Ballier, N. & **Lissón, P.** (2017). A corpus-based evaluation of readability metrics as indices of syntactic complexity in EFL learners’ written productions. *4th Learner Corpus Research Conferene (LCR 2017)*, Bolzano, Italy. [[abstract]](https://www.academia.edu/32530619/A_corpus-based_evaluation_of_readability_metrics_as_indices_of_syntactic_complexity_in_EFL_learners_written_productions_LCR_2017_abstract_)
+1. **Lissón, P.**, Ballier, N. & Gerdes, K. (accepted, Sept. 2019) On relativizer use in French learners of English: a corpus-based study. *5th Learner Corpus Research Conferene (LCR 2019)*
 
-2. Ballier, N. & **Lissón, P.** (2017). Estudio de la aplicabilidad de la ley de Zipf y la ley de Heaps en los corpus de aprendientes de inglés. *International Conference of Corpus Linguistics (CILC 2017)*, France. [[abstract]](https://www.academia.edu/32530681/Estudio_de_la_aplicabilidad_de_la_ley_de_Zipf_y_de_la_ley_de_Heaps_en_los_corpus_de_aprendientes_de_inglés_CILC2017_abstract_)
+2. Ballier, N. & **Lissón, P.** (2017). A corpus-based evaluation of readability metrics as indices of syntactic complexity in EFL learners’ written productions. *4th Learner Corpus Research Conferene (LCR 2017)*, Bolzano, Italy. [[abstract]](https://www.academia.edu/32530619/A_corpus-based_evaluation_of_readability_metrics_as_indices_of_syntactic_complexity_in_EFL_learners_written_productions_LCR_2017_abstract_)
+
+3. Ballier, N. & **Lissón, P.** (2017). Estudio de la aplicabilidad de la ley de Zipf y la ley de Heaps en los corpus de aprendientes de inglés. *International Conference of Corpus Linguistics (CILC 2017)*, France. [[abstract]](https://www.academia.edu/32530681/Estudio_de_la_aplicabilidad_de_la_ley_de_Zipf_y_de_la_ley_de_Heaps_en_los_corpus_de_aprendientes_de_inglés_CILC2017_abstract_)
 
 ## Poster presentations
 
@@ -18,7 +20,6 @@ title: "Presentations"
 
 
 # Miscellaneous Talks 
-
 1. **Lissón, P.** (2018). Quantitative Methods in SLA: a Short Introduction . *NYU Steinhardt: Second Language: Theory & Research. Spring course*.
 
 2. **Lissón, P.** (2018). On relativizer use in learner English: a corpus-based study. *Vasishth's lab, University of Potsdam*.

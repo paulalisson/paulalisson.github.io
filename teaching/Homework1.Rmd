@@ -50,8 +50,3 @@ the function does. What package does the function belong to?
 11. What is a histogram? Why is it useful?
 
 12. Generate 300 random datapoints from a normal distribution. You choose the mean and the sd. Then plot a histogram of the data. Change the number of bins. Describe what happens when you change the number of bins. 
-
-
-
-Useful reference:
-https://swcarpentry.github.io/r-novice-inflammation/13-supp-data-structures/

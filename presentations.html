@@ -96,6 +96,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -110,7 +113,6 @@ body {
   padding-top: 65px;
   margin-top: -65px;
 }
-
 .section h2 {
   padding-top: 65px;
   margin-top: -65px;
@@ -130,6 +132,43 @@ body {
 .section h6 {
   padding-top: 65px;
   margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -151,18 +190,77 @@ $(document).ready(function () {
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -192,9 +290,6 @@ $(document).ready(function () {
 <li>
   <a href="presentations.html">Presentations</a>
 </li>
-<li>
-  <a href="teaching.html">Teaching</a>
-</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -215,6 +310,7 @@ $(document).ready(function () {
 <div id="conference-presentations" class="section level2">
 <h2>Conference presentations</h2>
 <ol style="list-style-type: decimal">
+<li><p><strong>Lissón, P.</strong>, Ballier, N. &amp; Gerdes, K. (accepted, Sept. 2019) On relativizer use in French learners of English: a corpus-based study. <em>5th Learner Corpus Research Conferene (LCR 2019)</em></p></li>
 <li><p>Ballier, N. &amp; <strong>Lissón, P.</strong> (2017). A corpus-based evaluation of readability metrics as indices of syntactic complexity in EFL learners’ written productions. <em>4th Learner Corpus Research Conferene (LCR 2017)</em>, Bolzano, Italy. <a href="https://www.academia.edu/32530619/A_corpus-based_evaluation_of_readability_metrics_as_indices_of_syntactic_complexity_in_EFL_learners_written_productions_LCR_2017_abstract_">[abstract]</a></p></li>
 <li><p>Ballier, N. &amp; <strong>Lissón, P.</strong> (2017). Estudio de la aplicabilidad de la ley de Zipf y la ley de Heaps en los corpus de aprendientes de inglés. <em>International Conference of Corpus Linguistics (CILC 2017)</em>, France. <a href="https://www.academia.edu/32530681/Estudio_de_la_aplicabilidad_de_la_ley_de_Zipf_y_de_la_ley_de_Heaps_en_los_corpus_de_aprendientes_de_inglés_CILC2017_abstract_">[abstract]</a></p></li>
 </ol>

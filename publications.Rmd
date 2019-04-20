@@ -4,11 +4,11 @@ title: "Publications"
 ## In peer-reviewed journals
 Note: all journals are indexed by ERIH plus, MLA, and SCOPUS. Most of the journals are open-access. Otherwise, a link to the author version of the article is provided.
 
-1. **Lissón P.** & Ballier, N. (in press): Investigating lexical progression through lexical diversity metrics and vocabulary growth curves in a corpus of French L3. *Discours*. 
+1. **Lissón P.** & Ballier, N. (in press). Investigating lexical progression through lexical diversity metrics and vocabulary growth curves in a corpus of French L3. *Discours*. 
 
-2. Arnold, T., Ballier, N., **Lissón, P.**, Tilton, L. (accepted): Beyond Lexical Frequencies: Using R for Text Analysis in the Digital Humanities. *Language Resources and Evaluation*. [[link]](https://statsmaths.github.io/pdf/2018-beyond-lex.pdf)
+2. Arnold, T., Ballier, N., **Lissón, P.**, & Tilton, L. (2019). Beyond Lexical Frequencies: Using R for Text Analysis in the Digital Humanities. *Language Resources and Evaluation*. [[link]](https://doi.org/10.1007/s10579-019-09456-6) [[author version]](https://statsmaths.github.io/pdf/2018-beyond-lex.pdf)
 
-3. **Lissón P.** & Trujillo-González, V. (2018): Détection des transferts interlangues chez des apprenants universitaires de français troisième langue. *Synergies Espagne 11, 55-70*. [[link]](http://gerflint.fr/Base/Espagne11/lisson_trujillo.pdf)
+3. **Lissón P.** & Trujillo-González, V. (2018). Détection des transferts interlangues chez des apprenants universitaires de français troisième langue. *Synergies Espagne 11, 55-70*. [[link]](http://gerflint.fr/Base/Espagne11/lisson_trujillo.pdf)
 
 4. **Lissón P.** (2017). Investigating the use of readability metrics to detect differences in written productions of
 learners: a corpus-based study. *Bellaterra Journal of Teaching & Learning Language & Literature , 10 (4), 68-86.* DOI: [10.5565/rev/jtl3.752](https://doi.org/10.5565/rev/jtl3.752)

@@ -96,6 +96,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -110,7 +113,6 @@ body {
   padding-top: 65px;
   margin-top: -65px;
 }
-
 .section h2 {
   padding-top: 65px;
   margin-top: -65px;
@@ -130,6 +132,43 @@ body {
 .section h6 {
   padding-top: 65px;
   margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -151,18 +190,77 @@ $(document).ready(function () {
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -192,9 +290,6 @@ $(document).ready(function () {
 <li>
   <a href="presentations.html">Presentations</a>
 </li>
-<li>
-  <a href="teaching.html">Teaching</a>
-</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -216,9 +311,9 @@ $(document).ready(function () {
 <h2>In peer-reviewed journals</h2>
 <p>Note: all journals are indexed by ERIH plus, MLA, and SCOPUS. Most of the journals are open-access. Otherwise, a link to the author version of the article is provided.</p>
 <ol style="list-style-type: decimal">
-<li><p><strong>Lissón P.</strong> &amp; Ballier, N. (in press): Investigating lexical progression through lexical diversity metrics and vocabulary growth curves in a corpus of French L3. <em>Discours</em>.</p></li>
-<li><p>Arnold, T., Ballier, N., <strong>Lissón, P.</strong>, Tilton, L. (accepted): Beyond Lexical Frequencies: Using R for Text Analysis in the Digital Humanities. <em>Language Resources and Evaluation</em>. <a href="https://statsmaths.github.io/pdf/2018-beyond-lex.pdf">[link]</a></p></li>
-<li><p><strong>Lissón P.</strong> &amp; Trujillo-González, V. (2018): Détection des transferts interlangues chez des apprenants universitaires de français troisième langue. <em>Synergies Espagne 11, 55-70</em>. <a href="http://gerflint.fr/Base/Espagne11/lisson_trujillo.pdf">[link]</a></p></li>
+<li><p><strong>Lissón P.</strong> &amp; Ballier, N. (in press). Investigating lexical progression through lexical diversity metrics and vocabulary growth curves in a corpus of French L3. <em>Discours</em>.</p></li>
+<li><p>Arnold, T., Ballier, N., <strong>Lissón, P.</strong>, &amp; Tilton, L. (2019). Beyond Lexical Frequencies: Using R for Text Analysis in the Digital Humanities. <em>Language Resources and Evaluation</em>. <a href="https://doi.org/10.1007/s10579-019-09456-6">[link]</a> <a href="https://statsmaths.github.io/pdf/2018-beyond-lex.pdf">[author version]</a></p></li>
+<li><p><strong>Lissón P.</strong> &amp; Trujillo-González, V. (2018). Détection des transferts interlangues chez des apprenants universitaires de français troisième langue. <em>Synergies Espagne 11, 55-70</em>. <a href="http://gerflint.fr/Base/Espagne11/lisson_trujillo.pdf">[link]</a></p></li>
 <li><p><strong>Lissón P.</strong> (2017). Investigating the use of readability metrics to detect differences in written productions of learners: a corpus-based study. <em>Bellaterra Journal of Teaching &amp; Learning Language &amp; Literature , 10 (4), 68-86.</em> DOI: <a href="https://doi.org/10.5565/rev/jtl3.752">10.5565/rev/jtl3.752</a></p></li>
 </ol>
 </div>
