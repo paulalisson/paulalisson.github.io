@@ -24,5 +24,5 @@ Previously, I completed a MA in English Linguistics at Paris Diderot University 
 
 # News
 - I will be teaching an intro to  R for beginners at the [Third Summer School on Statistical Methods for Linguistics and Psychology at the University of Potsdam.](https://vasishth.github.io/smlp2019/)
-- I will present a poster in AMLAP 2019 in Moscow! [[pdf]]("posters/amlap_2019.pdf")
-- I presented a poster in StanCon Cambridge in August 2019.  [[pdf]]("posters/stancon2019.pdf"")
+- I will present a poster in AMLAP 2019 in Moscow! [[poster]]("/Users/Paula/Dropbox/paulalisson.github.io/posters/amlap_2019.pdf")
+- I presented a poster in StanCon Cambridge in August 2019.  [[poster]]("/Users/Paula/Dropbox/paulalisson.github.io/posters/stancon2019.pdf"")
