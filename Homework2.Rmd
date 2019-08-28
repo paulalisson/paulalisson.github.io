@@ -1,0 +1,54 @@
+---
+title: "Homework 2"
+author: 'null'
+output:
+  html_document:
+    df_print: paged
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*. **You will have to add a block of code (by clicking in insert-R in the green button above) for the answers that require you to write some code**
+
+When you are done with the homework, Knit the file by cliking on the **Knit** icon on the upper part of the script pannel, then select **knit to pdf** (if you have LaTeX installed) or **knit to html** and upload the file to the moodle page (or if you can't upload it send it to paula.lisson@uni-potsdam.de). The knitted file will be stored in your working directory. You can check your working directory in R by running the function getwd(), but if you did everything correctly and created a new project as indicated in the lecture, the working directory should be where the project is located. 
+
+
+1. On top of the file, write your name instead of "null" (**author: "null"**).
+
+2. Imagine a factor that contains "categories" **c,a,z,s,p**.
+
+  - How many levels does this factor have?
+  - Make an object of class factor named **f** containing the **c,a,z,s,p** (as factor!).
+  - Now make an object of class character named **c** that contains the same letters.
+  - Have a look at the two objects. Why is the order different in the levels of **f** in comparison with **c**?
+  - Change the levels of the factor **f** so that the order is **c,a,z,s,p**.
+
+3. Create a for loop for a range between 1 and 8, it has to print each element of the range + 5.  
+
+4. Use one of the two functions in R that help you find out what these two functions do: cbind() rbind()
+
+5. Create a new vector containing the name of 3 of your friends.
+
+6. Create another vector containing their ages.
+
+7. Join the two previous vectors and create a new object named "friends1". Do that by using the correct function: cbind or rbind? 
+
+8. Now create a new object named "friends2" with the vectors from ex. 5 and 6 but this time use the function data.frame() and give names to your columns, i.e., "names" and "age".
+
+
+9. Change the class of the second column of friends2 to **factor**. 
+
+10. Which is the difference between a matrix and a data frame?
+
+13. The dataset iris is available in R. First, run the following code: **data(iris)**. Then, export the dataset with the function we saw in the slides. Finally, import it back to R with the other function we have seen. 
+
+
+14. With the variables created below, type the code to find out whether: a is greater or equal than c; b is equal to a; c is less than b. Is c smaller than b? why? (hint: check the class of the variables)
+```{r}
+a <- 20
+b <- "20"
+c <- 10
+```
+
+15. **If statements:** create a variable 'x' and assign the value '6' to it. Then create an if statement: If x is equal or bigger than 0, create a new variable called 'y' that is equal to 'x' multiplied by 10 (and print y). Else, the variable 'y' will be equal to x multiplied by 5 (and print y). Then run the code. Finally, change the value of x to -2 and run the code again. 
