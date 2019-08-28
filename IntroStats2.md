@@ -1,0 +1,635 @@
+Introduction to R (part II)
+========================================================
+author: Paula Lissón 
+date: October 2018
+autosize: true
+
+<small> 
+Universität Potsdam   
+Deparment of Linguistics
+</small>
+
+Contact : paula.lisson@uni-potsdam.de 
+
+About me
+========================================================
+I'm a first year PhD candidate at Vasishth's lab, here in Potsdam. 
+
+I will introduce you to the basics of R and to the main R functionalities you need to know in order to pass this course.
+
+The slides for the tutorial and the homework will be available here:
+https://paulalisson.github.io/tutorials 
+
+Open Rstudio and your project
+========================================================
+
+**Remember:** we are going to be always working in the project that we created the other day.
+Two options: 
+- a) open Rstudio. On the right upper corner you will see the name of the project. If 
+the name is 'none', click in the button > open project > browse your project
+- b) go to the folder where the project is stored, and open it by clicking on the project icon that looks like that:
+
+<centered>
+![text](images/rprojecticon.png)
+</centered>
+
+Now you can either start a new script for today or continue with the previous script from the first class. 
+
+First things first: QUESTIONS?
+========================================================
+* Is there anything from the previous presentation or from the homework that you don't understand? 
+* How was the homework? was it too easy? too difficult? 
+
+
+Data types and R objects
+========================================================
+We will only focus on atomical vectors and data frames, but
+it will be useful to recognise other object types (there
+are more than the ones presented here):
+
+1. Objects that can only store a single type of data (atomical vectors)
+can be of type:
+ - ~~Numerical~~
+ - ~~Character / strings (text)~~
+ - **Logical (True/False)**
+ - **Factors** 
+
+========================================================
+2.These also store only one data type, but can have more than 1 dimension:
+ - **Matrices (two dimensions)** 
+ - ~~Arrays (2 or more dimensions)~~ <- no need to worry about this for now 
+ 
+3.These can store more than one data type (i.e. numbers as numerical and strings as character):
+ - ~~Lists~~ <- no need to worry about this for now
+ - **Data frames !!!!** 
+
+Useful functions for any data type and any object:
+
+```r
+#class(nameoftheobject)
+#length(nameoftheobject)
+```
+
+
+Logical values (also called Boolean) and logical operations
+========================================================
+
+**TRUE or FALSE**
+- you need to know the most basic **logical operations** cause we will need them for IF statements (later on)
+  + **<** : Less than; **>** : Greater than      
+  + **<=** : Less than or equal to; **>=** : Greater than or equal to 
+  + **==** : Equal to                 
+  + **!=** : Not equal to             
+  + **x|y**  : x OR y                    
+  + **x & y**  : x AND y                  
+
+
+Logical values and operations
+========================================================
+incremental:true 
+
+Examples
+
+```r
+a <- 3; b <- 5
+a == 3 #equal to
+```
+
+```
+[1] TRUE
+```
+
+```r
+a != b #not equal to
+```
+
+```
+[1] TRUE
+```
+
+```r
+b > a
+```
+
+```
+[1] TRUE
+```
+
+Logical values and operations
+========================================================
+incremental:true 
+
+You can always combine operators, for example: 
+
+```r
+x <- 1:10
+# what would this yield?
+x[(x>2) | (x<4)] 
+```
+
+```
+ [1]  1  2  3  4  5  6  7  8  9 10
+```
+Why? 
+
+```r
+x[(x>2)]
+```
+
+```
+[1]  3  4  5  6  7  8  9 10
+```
+
+```r
+x[(x<4)]
+```
+
+```
+[1] 1 2 3
+```
+
+========================================================
+incremental:true 
+
+Now compare with:
+
+```r
+x <- 1:10
+x > 2
+```
+
+```
+ [1] FALSE FALSE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE
+```
+
+```r
+x < 4
+```
+
+```
+ [1]  TRUE  TRUE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+```
+
+```r
+x > 2 | x < 4
+```
+
+```
+ [1] TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE
+```
+
+
+If statements
+========================================================
+incremental: true
+Statement used when you want something to happen
+depending on conditions that you establish:
+
+![text](images/ifstatement1.png)
+
+========================================================
+
+Example :
+
+```r
+x <- -5 
+if (x > 0) { 
+print("Non-negative number") 
+} else { 
+print("Negative number") }
+```
+
+```
+[1] "Negative number"
+```
+
+
+If statements
+========================================================
+![text](images/ifstatement2.png)
+
+
+If statements
+========================================================
+- and we can have more conditions with the statement **else if**, just remember the order of statements: 
+ - 1) if ..  {
+ - 2) } else if {
+ - 3) } else {
+ - }
+
+
+```r
+x <- 0
+if (x < 0) {
+print("Negative number")
+  } else if (x > 0) {
+print("Positive number")
+  } else {
+print("Zero") 
+  }
+```
+
+```
+[1] "Zero"
+```
+
+========================================================
+incremental:true
+
+**Quick excercise:** 
+- change the value of X to 5 and rerun the code. See what happens. 
+- now change the value of X to -5. Do you see how the statements work? 
+
+NB: some examples for this section on if statements have been taken from https://www.datamentor.io/r-programming/if-else-statement/ . Check the link if you want to know more details or if you have doubts.
+
+
+Matrix
+========================================================
+incremental:true
+
+Matrices are like vectors (they only support a type of data) but they have two dimensions: rows and columns.
+
+
+```r
+my_matrix <- matrix(nrow = 4, ncol = 4) # notice that it is empty
+my_matrix
+```
+
+```
+     [,1] [,2] [,3] [,4]
+[1,]   NA   NA   NA   NA
+[2,]   NA   NA   NA   NA
+[3,]   NA   NA   NA   NA
+[4,]   NA   NA   NA   NA
+```
+
+```r
+matrix(1:8, ncol = 2)
+```
+
+```
+     [,1] [,2]
+[1,]    1    5
+[2,]    2    6
+[3,]    3    7
+[4,]    4    8
+```
+NOTICE that R does not mark null or non existent values as 0. Instead, **NA** is what stands for empty values. 
+
+
+for loops
+========================================================
+incremental:true
+
+- a **loop** is simply a way to repeat a sequence of instructions 
+- for example:
+
+
+```r
+fruits <- c("banana", "orange", "apple", "peach") 
+for (fruit in fruits){
+  print(paste("This is a/n", fruit))
+}
+```
+
+```
+[1] "This is a/n banana"
+[1] "This is a/n orange"
+[1] "This is a/n apple"
+[1] "This is a/n peach"
+```
+
+for loops
+========================================================
+incremental:true
+
+- Let's have a closer look. In the first line of code we simply created an object concatenanting the names of the fruits. 
+- Then we typed a for loop. Basically, it means: for each element (fruit) in the object (fruits), print "This is" + the name of each element of the object.
+- With a for loop, you can set one or more instructions that will be applied for the range that you have specified (which, in this case, is the content of an object)
+
+```r
+fruits <- c("banana", "orange", "apple", "peach") 
+for (fruit in fruits){
+  print(paste("This is a/n", fruit))
+}
+```
+
+for loops
+========================================================
+incremental:true
+
+Let's have a look at something more mathematical. This example is taken from the class notes. The idea is to break down the code and understand it here so that you have no problem while revising the notes:
+
+- First, we create an object full of empty values (NA), because it will be filled later on with the values we need. We do that with the function **rep()**, whose first argument is NA (because we want empty values) and the second argument is the number of empty values that we want, i.e. 1000.  
+
+```r
+sample.means <- rep(NA,1000) # check your environment
+```
+
+========================================================
+incremental:true
+
+- Then, the for loop. 
+
+```r
+for(i in 1:1000){
+sample.40 <- rnorm(40,mean=60,sd=4)
+sample.means[i] <- mean(sample.40)
+}
+```
+ - For each element/item (i) in the range between 1 and 1000, 
+ - sample (from a normal distribution) 40 elements with mean 60 and sd 4 and create an object called **sample.40**
+ - then store the means of each element of **sample.40** in a new object called **sample.means**
+
+for loops
+========================================================
+incremental:true
+
+Let's have a clooser look at the syntax:
+
+![text](images/forloop.png)
+
+Be careful with the number of parentheses and brackets!
+
+
+```r
+for(i in 1:1000){
+sample.40 <- rnorm(40,mean=60,sd=4)
+sample.means[i] <- mean(sample.40)
+}
+```
+
+Data Frame
+========================================================
+A data frame looks like a matrix (rows and columns) but supports multiple types of data at the same time. That is, in a data frame, you can have at the same time numerical values, logical values, strings, and so on.
+
+
+```r
+data(iris)
+class(iris)
+```
+
+```
+[1] "data.frame"
+```
+
+========================================================
+This is how the dataframe looks like:
+![text](images/iris.png)
+
+Useful functions
+========================================================
+incremental:true
+
+
+```r
+data(iris)
+names(iris)
+```
+
+```
+[1] "Sepal.Length" "Sepal.Width"  "Petal.Length" "Petal.Width" 
+[5] "Species"     
+```
+
+```r
+nrow(iris)
+```
+
+```
+[1] 150
+```
+
+```r
+ncol(iris)
+```
+
+```
+[1] 5
+```
+
+```r
+#str(iris)
+```
+
+========================================================
+incremental:true 
+
+
+```r
+# creating a data frame of two vectors x and y 
+x <- 1:10
+y <- letters[1:10]
+my.data.frame <- data.frame("numbers"=x, "letters"=y)
+head(my.data.frame)
+```
+
+```
+  numbers letters
+1       1       a
+2       2       b
+3       3       c
+4       4       d
+5       5       e
+6       6       f
+```
+
+
+Subsetting
+========================================================
+
+```r
+table(iris$Species)
+```
+
+```
+
+    setosa versicolor  virginica 
+        50         50         50 
+```
+
+```r
+iris_subset <-subset(iris,Species=="setosa")
+#iris_subset
+```
+
+Subsetting
+========================================================
+incremental:true
+
+Ref : http://www.ling.uni-potsdam.de/~engelmann/publications/r-reference-felixengelmann.pdf
+
+* We have seen that the **$** operator selects the column indicated after the operator. But it turns out that we can also use the **[ ]** to subset a dataframe
+
+
+```r
+df[,c] #returns column c.
+df[,i:j] #returns columns i to j. 
+```
+
+
+```r
+df$a[df$b==n] #returns all elements of column a for which elements in column b equal n
+```
+
+
+```r
+subset(df, a > n & b != m) # returns subset of df where column a is greater than n and column b is not equal to m.
+```
+
+Factors
+========================================================
+incremental: true
+Imagine a dataset with reading times of two groups of participants. Within each group, there were both female and male participants. When we do statistical analysis, we need R to consider these labels not as independent strings (words), but as **categories**. Each one of the participants would then have a category for group (1 or 2) and a category for gender (female-male).
+
+This type of data are called **FACTORS** (of two levels for *male-female*, of three levels for *single,married,divorced*, and so on)
+
+
+```r
+data(iris)
+class(iris$Species)
+```
+
+```
+[1] "factor"
+```
+
+```r
+summary(iris$Species)
+```
+
+```
+    setosa versicolor  virginica 
+        50         50         50 
+```
+
+Factors
+========================================================
+FACTORS ARE CRUCIAL in statistical analysis, and they can be tricky in R. By default, R can (mistakenly)
+recognise them as 'character' rather than 'factor', so you will have to be careful.
+
+as.factor(dataframe$column)
+
+
+```r
+# as.factor(iris$Species)
+```
+
+Sometimes it can be very useful to change the order of the factors in statistical analysis (by default in alphabetical order):
+
+
+```r
+#new_order_data <- factor(data,levels = c("factor1","factor2","factor3"))
+```
+
+
+Importing and exporting tabular data
+========================================================
+incremental:true
+
+As you have seen, the data frame in R is similar to the classical spreadsheet. We can easily load spreadsheets with our data in R:
+
+```r
+#mydata <- read.table("myspreadsheet.txt",header=T)
+#mydata <- read.table("myspreadsheet.csv",header=T)
+```
+
+Notice the file format (txt/csv). After the analysis of the data with R, we can export data with:
+
+
+```r
+#write.table(nameofthedataframe, file = "myfile.csv")
+```
+
+**IMPORTANT**: The file has to be in the proper working directory so that R can read it, and R will output the file with the command write.table() to the working directory. Otherwise, we have to specify the path of the files. This is the reason why we created an R project from the beginning.
+
+
+```r
+getwd()
+```
+
+```
+[1] "/Users/Paula/Dropbox/Teaching/IntroStats"
+```
+
+Plotting: Histograms
+========================================================
+R has several built-in datasets (for practice/didactics purposes). We will use the dataset **iris** to produce simple graphs. First, load the dataset by doing **data(iris)**, and see how it looks like by using the function summary() and/or head().
+
+```r
+#summary(iris)
+#head(iris)
+```
+
+Plotting: Histograms
+========================================================
+* A histogram is simply a way to graphically explore the distribution of a numerical vairable
+
+
+```r
+hist(iris$Petal.Length,freq=F)
+```
+
+![plot of chunk unnamed-chunk-28](IntroStats2-figure/unnamed-chunk-28-1.png)
+
+
+Plotting: Histograms
+========================================================
+
+```r
+hist(iris$Petal.Length,breaks=30)
+```
+
+![plot of chunk unnamed-chunk-29](IntroStats2-figure/unnamed-chunk-29-1.png)
+
+
+========================================================
+
+```r
+hist(iris$Petal.Length,breaks=50)
+```
+
+![plot of chunk unnamed-chunk-30](IntroStats2-figure/unnamed-chunk-30-1.png)
+
+Plotting: Scatter plots 
+========================================================
+incremental: true
+
+An way to observe the relationship between two numeric variables:
+
+```r
+plot(iris$Petal.Length, iris$Petal.Width)
+```
+
+![plot of chunk unnamed-chunk-31](IntroStats2-figure/unnamed-chunk-31-1.png)
+
+========================================================
+incremental: true
+
+Given the scatter plot in the previous slide, what can we observe about the relationship between Petal Lenght and Petal Width?
+* This can be also checked numerically:
+
+```r
+cor(iris$Petal.Length, iris$Petal.Width)
+```
+
+```
+[1] 0.9628654
+```
+
+Just for fun: have a look at some of the plots you can do with R 
+========================================================
+
+https://www.r-graph-gallery.com/histogram/
+
+http://www.r-graph-gallery.com/21-distribution-plot-using-ggplot2
+
+https://www.r-graph-gallery.com/129-use-a-loop-to-add-trace-with-plotly/
+
+General guidelines
+========================================================
+- **NEVER NEVER NEVER** use Word, LibreOffice, or PPT to write code. If you don't like Rstudio, you could use a text editor such as Atom, Aquamacs, or even the text editor by default in your computer. BUT DON'T USE WORD.
+- Try to comment your code as you are doing it, it will be useful for you in the future
+- If you consult online sites and copy and paste the code, always put in a comment (#) the reference to the original source
+
+=======================================================
