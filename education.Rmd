@@ -32,11 +32,3 @@ text-align: justify}
 - Erasmus+ studentship mobility, 9 months, Université de Versailles Saint Quentin en Yvelines. France. 2014-2015
 - Exemption of tuition fees due to academic merits (ULPGC, 2012 – 2013)
 
-
-# Thesis
-
--  **M2 thesis (2018)**: On relativizer choices in French learners of English: a corpus-driven modeling approach. Mention Très Bien. Supervisor: Prof. Nicolas Ballier. *Université Paris Diderot.*
-  
--  **M1 thesis (2017)**: A corpus-based study of lexical diversity and readability in EFL learners’ productions: towards a critical statistical approach. Mention Très Bien. Supervisor: Prof. Nicolas Ballier. *Université Paris Diderot.*
-  
--  **BA Thesis (2016)**: L’interlangue chez les apprenants hispanophones de FLE: cas d’étude. Supervisor: Verónica Trujillo-González. *Universidad de Las Palmas de Gran Canaria.* 

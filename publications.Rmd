@@ -4,7 +4,7 @@ title: "Publications"
 ## In peer-reviewed journals
 Note: all journals are indexed by ERIH plus, MLA, and SCOPUS. Most of the journals are open-access. Otherwise, a link to the author version of the article is provided.
 
-1. **Lissón P.** & Ballier, N. (in press). Investigating lexical progression through lexical diversity metrics and vocabulary growth curves in a corpus of French L3. *Discours*. 
+1. **Lissón P.** & Ballier, N. (in press). Investigating lexical progression through lexical diversity metrics and vocabulary growth curves in a corpus of French L3. *Discours*. [[link]](https://journals.openedition.org/discours/9950)
 
 2. Arnold, T., Ballier, N., **Lissón, P.**, & Tilton, L. (2019). Beyond Lexical Frequencies: Using R for Text Analysis in the Digital Humanities. *Language Resources and Evaluation*. [[link]](https://doi.org/10.1007/s10579-019-09456-6) [[author version]](https://statsmaths.github.io/pdf/2018-beyond-lex.pdf)
 
