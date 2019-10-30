@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -69,9 +70,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -85,7 +84,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -190,8 +188,6 @@ $(document).ready(function () {
 });
 </script>
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
 
 <style type="text/css">
@@ -248,20 +244,17 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -317,12 +310,12 @@ text-align: justify}
 </style>
 <div id="contact" class="section level1">
 <h1>Contact</h1>
-<p>Department of Linguistics, Universität Postdam.<br/> Karl-Liebknecht-Straße 24–25, 14476 Potsdam. <br/> Haus 14, Room 212.<br/> Email: <a href="mailto:paula.lisson@uni-potsdam.de">paula.lisson@uni-potsdam.de</a> / <a href="mailto:lissonh@gmail.com">lissonh@gmail.com</a><br/> Profiles: <a href="https://uni-potsdam.academia.edu/PaulaLissón">Academia</a>, <a href="https://www.researchgate.net/profile/Paula_Lisson">Research Gate</a>, <a href="https://orcid.org/0000-0003-4750-2553">ORCID</a>, <a href="https://twitter.com/lissonpaula">Twitter</a></p>
+<p>Department of Linguistics, Universität Postdam.<br/> Karl-Liebknecht-Straße 24–25, 14476 Potsdam. <br/> Haus 14, Room 212.<br/> Email: <a href="mailto:paula.lisson@uni-potsdam.de" class="email">paula.lisson@uni-potsdam.de</a> / <a href="mailto:lissonh@gmail.com" class="email">lissonh@gmail.com</a><br/> Profiles: <a href="https://www.researchgate.net/profile/Paula_Lisson">Research Gate</a>, <a href="https://orcid.org/0000-0003-4750-2553">ORCID</a>, <a href="https://twitter.com/lissonpaula">Twitter</a></p>
 </div>
 <div id="about-me" class="section level1">
 <h1>About me</h1>
 <p>I’m a research assistant and PhD candidate in Cognitive Sciences in the <a href="http://www.ling.uni-potsdam.de/~vasishth/">Vasishth’s Lab</a>, at the University of Potsdam, in Germany. I am currently working on computational models of sentence processing difficulties in aphasia, within the project B02 of the <a href="https://www.uni-potsdam.de/sfb1287/index.html">SFB 1287 - Limits of Variability in Language</a>. For this purpose, I mostly use Bayesian methods, as well as the cognitive architecture ACT-R.</p>
-<p>Previously, I completed a MA in English Linguistics at Paris Diderot University (<a href="http://www.clillac-arp.univ-paris-diderot.fr">CLILLAC-ARP EA 3967 lab</a>), and I was a visiting student at <a href="https://as.nyu.edu/content/nyu-as/as/departments/linguistics/homepage.html">NYU Linguistics</a> for the academic year 2017-2018. During this period, my research mainly focused on lexical and syntactic complexity in learner English, and on crosslinguistic transferences in multilingual learners. I also worked on the statistical modeling of relativizer choices among French learners of English (under the supervision of <a href="http://www.clillac-arp.univ-paris-diderot.fr/user/nicolas_ballier">Nicolas Ballier</a> and <a href="http://www.sfs.uni-tuebingen.de/~dm/">Detmar Meurers</a>). Prior to that, I completed a BA on English &amp; French Philology at the University of Las Palmas de Gran Canaria, in Spain.</p>
+<p>Previously, I completed a MA in English Linguistics at Paris Diderot University (<a href="http://www.clillac-arp.univ-paris-diderot.fr">CLILLAC-ARP EA 3967 lab</a>), and I was a visiting student at <a href="https://as.nyu.edu/content/nyu-as/as/departments/linguistics/homepage.html">NYU Linguistics</a> for the academic year 2017-2018. During this period, my research mainly focused on lexical and syntactic complexity in learner English, and on crosslinguistic transferences in multilingual learners. I also worked on the statistical modeling of relativizer choices among French learners of English (under the supervision of <a href="http://www.clillac-arp.univ-paris-diderot.fr/user/nicolas_ballier">Nicolas Ballier</a> and <a href="http://www.sfs.uni-tuebingen.de/~dm/">Detmar Meurers</a>). Prior to that, I completed a BA on English &amp; French Philology at the University of Las Palmas de Gran Canaria, in Spain. You can download my CV forom <a href="https://www.dropbox.com/s/n99f7jmf53j8vcs/cvSeptember2019.pdf?dl=0">here</a>.</p>
 </div>
 
 
@@ -342,6 +335,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

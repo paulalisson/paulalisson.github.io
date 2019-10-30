@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 <meta name="author" content="null" />
@@ -72,9 +73,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -88,7 +87,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -193,8 +191,6 @@ $(document).ready(function () {
 });
 </script>
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
 
 <style type="text/css">
@@ -251,20 +247,17 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -309,14 +302,14 @@ $(document).ready(function () {
 
 
 <h1 class="title toc-ignore">Homework 2</h1>
-<h4 class="author"><em>null</em></h4>
+<h4 class="author">null</h4>
 
 </div>
 
 
 <p>This is an <a href="http://rmarkdown.rstudio.com">R Markdown</a> Notebook. When you execute code within the notebook, the results appear beneath the code. Try executing this chunk by clicking the <em>Run</em> button within the chunk or by placing your cursor inside it and pressing <em>Cmd+Shift+Enter</em>.</p>
 <p>Add a new chunk by clicking the <em>Insert Chunk</em> button on the toolbar or by pressing <em>Cmd+Option+I</em>. <strong>You will have to add a block of code (by clicking in insert-R in the green button above) for the answers that require you to write some code</strong></p>
-<p>When you are done with the homework, Knit the file by cliking on the <strong>Knit</strong> icon on the upper part of the script pannel, then select <strong>knit to pdf</strong> (if you have LaTeX installed) or <strong>knit to html</strong> and upload the file to the moodle page (or if you can’t upload it send it to <a href="mailto:paula.lisson@uni-potsdam.de">paula.lisson@uni-potsdam.de</a>). The knitted file will be stored in your working directory. You can check your working directory in R by running the function getwd(), but if you did everything correctly and created a new project as indicated in the lecture, the working directory should be where the project is located.</p>
+<p>When you are done with the homework, Knit the file by cliking on the <strong>Knit</strong> icon on the upper part of the script pannel, then select <strong>knit to pdf</strong> (if you have LaTeX installed) or <strong>knit to html</strong> and upload the file to the moodle page (or if you can’t upload it send it to <a href="mailto:paula.lisson@uni-potsdam.de" class="email">paula.lisson@uni-potsdam.de</a>). The knitted file will be stored in your working directory. You can check your working directory in R by running the function getwd(), but if you did everything correctly and created a new project as indicated in the lecture, the working directory should be where the project is located.</p>
 <ol style="list-style-type: decimal">
 <li><p>On top of the file, write your name instead of “null” (<strong>author: “null”</strong>).</p></li>
 <li><p>Imagine a factor that contains “categories” <strong>c,a,z,s,p</strong>.</p></li>
@@ -364,6 +357,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

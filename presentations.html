@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -69,9 +70,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -85,7 +84,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -190,8 +188,6 @@ $(document).ready(function () {
 });
 </script>
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
 
 <style type="text/css">
@@ -248,20 +244,17 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -313,7 +306,7 @@ $(document).ready(function () {
 <div id="talks" class="section level2">
 <h2>Talks</h2>
 <ol style="list-style-type: decimal">
-<li><p><strong>Lissón, P.</strong>, Ballier, N. &amp; Gerdes, K. (accepted, Sept. 2019) On relativizer use in French learners of English: a corpus-based study. <em>5th Learner Corpus Research Conferene (LCR 2019)</em> Warsaw, Poland.</p></li>
+<li><p><strong>Lissón, P.</strong>, Ballier, N. &amp; Gerdes, K. (accepted, Sept. 2019) On relativizer use in French learners of English: a corpus-based study. <em>5th Learner Corpus Research Conferene (LCR 2019)</em> Warsaw, Poland.</p></li>
 <li><p>Ballier, N. &amp; <strong>Lissón, P.</strong> (2017). A corpus-based evaluation of readability metrics as indices of syntactic complexity in EFL learners’ written productions. <em>4th Learner Corpus Research Conferene (LCR 2017)</em>, Bolzano, Italy. <a href="https://www.academia.edu/32530619/A_corpus-based_evaluation_of_readability_metrics_as_indices_of_syntactic_complexity_in_EFL_learners_written_productions_LCR_2017_abstract_">[abstract]</a></p></li>
 <li><p>Ballier, N. &amp; <strong>Lissón, P.</strong> (2017). Estudio de la aplicabilidad de la ley de Zipf y la ley de Heaps en los corpus de aprendientes de inglés. <em>International Conference of Corpus Linguistics (CILC 2017)</em>, France. <a href="https://www.academia.edu/32530681/Estudio_de_la_aplicabilidad_de_la_ley_de_Zipf_y_de_la_ley_de_Heaps_en_los_corpus_de_aprendientes_de_inglés_CILC2017_abstract_">[abstract]</a></p></li>
 </ol>
@@ -355,6 +348,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
