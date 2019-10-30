@@ -2,16 +2,16 @@
 title: "Presentations"
 ---
 ## Talks
-1. **Lissón, P.**, Ballier, N. & Gerdes, K. (accepted, Sept. 2019) On relativizer use in French learners of English: a corpus-based study. *5th Learner Corpus Research Conferene (LCR 2019)* Warsaw, Poland.
+1. **Lissón, P.**, Ballier, N. & Gerdes, K. (2019).On relativizer use in French learners of English: a corpus-based study. *5th Learner Corpus Research Conferene (LCR 2019)* Warsaw, Poland.
 
 2. Ballier, N. & **Lissón, P.** (2017). A corpus-based evaluation of readability metrics as indices of syntactic complexity in EFL learners’ written productions. *4th Learner Corpus Research Conferene (LCR 2017)*, Bolzano, Italy. [[abstract]](https://www.academia.edu/32530619/A_corpus-based_evaluation_of_readability_metrics_as_indices_of_syntactic_complexity_in_EFL_learners_written_productions_LCR_2017_abstract_)
 
 3. Ballier, N. & **Lissón, P.** (2017). Estudio de la aplicabilidad de la ley de Zipf y la ley de Heaps en los corpus de aprendientes de inglés. *International Conference of Corpus Linguistics (CILC 2017)*, France. [[abstract]](https://www.academia.edu/32530681/Estudio_de_la_aplicabilidad_de_la_ley_de_Zipf_y_de_la_ley_de_Heaps_en_los_corpus_de_aprendientes_de_inglés_CILC2017_abstract_)
 
 ## Posters 
-- *Lissón, P.*, van het Nederend, M., Nicenboim, B., Pregla, D., Paape, D., & Vasishth, S. (2019). Competing models of retrieval in sentence processing: The case of aphasia. To be presented at the *25th Architectures and Mechanisms for Language Processing (AMLaP)*, Moscow, Russia. [[pdf]](https://www.academia.edu/40270092/Competing_models_of_retrieval_in_sentence_processing_the_case_of_aphasia)
+- *Lissón, P.*, van het Nederend, M., Nicenboim, B., Pregla, D., Paape, D., & Vasishth, S. (2019). Competing models of retrieval in sentence processing: The case of aphasia. To be presented at the *25th Architectures and Mechanisms for Language Processing (AMLaP)*, Moscow, Russia. [[poster]](https://www.dropbox.com/s/ll8ol2t9lw37qjo/amlap_2019.pdf?dl=0)
 
-- **Lissón, P.**, Nicenboim, B., Vasishth, S., & Paape, D. (2019). Models of retrieval in sentence comprehension in aphasia. *StanCon*, Cambridge, UK. [[pdf]](https://www.academia.edu/40270101/Modeling_retrieval_processes_of_sentence_comprehension_in_aphasia)
+- **Lissón, P.**, Nicenboim, B., Vasishth, S., & Paape, D. (2019). Models of retrieval in sentence comprehension in aphasia. *StanCon*, Cambridge, UK. [[poster]](https://www.dropbox.com/s/n9wiz3a0otmnjo9/stancon2019.pdf?dl=0)
 
 - **Lissón, P.** & Ballier, N. (2018). Investigating learners’ progression in French as a Foreign Language: vocabulary growth and lexical diversity. *Student Research Day, Ph.D. Program in Speech-Language-Hearing Sciences,* CUNY, NYC.
 
