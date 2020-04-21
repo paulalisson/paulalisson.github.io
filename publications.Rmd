@@ -10,9 +10,8 @@ Note: all journals are indexed by ERIH plus, MLA, and SCOPUS. Most of the journa
 
 3. **Lissón P.** & Trujillo-González, V. (2018). Détection des transferts interlangues chez des apprenants universitaires de français troisième langue. *Synergies Espagne 11, 55-70*. [[link]](http://gerflint.fr/Base/Espagne11/lisson_trujillo.pdf)
 
-4. **Lissón P.** (2017). Investigating the use of readability metrics to detect differences in written productions of
-learners: a corpus-based study. *Bellaterra Journal of Teaching & Learning Language & Literature , 10 (4), 68-86.* DOI: [10.5565/rev/jtl3.752](https://doi.org/10.5565/rev/jtl3.752)
-
+<!-- 4. **Lissón P.** (2017). Investigating the use of readability metrics to detect differences in written productions of -->
+<!-- learners: a corpus-based study. *Bellaterra Journal of Teaching & Learning Language & Literature , 10 (4), 68-86.* DOI: [10.5565/rev/jtl3.752](https://doi.org/10.5565/rev/jtl3.752) -->
 
 ## In peer-reviewed proceedings 
 1. Ballier, N., Gaillat, T., Arnold, T.,**Lissón P.** (2018). Predicting CEFRL levels in learner English on the basis of metrics and full texts. *Conférence sur l'Apprentissage Automatique (CAP 2018), Rouen, France*. [[link]](https://arxiv.org/abs/1806.11099)
