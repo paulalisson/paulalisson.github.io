@@ -1,6 +1,10 @@
 ---
 title: "Publications"
 ---
+
+## Preprints
+1. **Lisson, P.**, Pregla, D., Nicenboim, B., Paape, D., van het Nederend, M. L., Burchert, F., Stadie, N., Caplan, D.,  Vasishth, S. (2020, May 22). A computational evaluation of two models of retrieval processes in sentence processing in aphasia. Submitted to *Cognitive Sciences^*. [[arXiv]](https://doi.org/10.31234/osf.io/r7dn5)
+
 ## In peer-reviewed journals
 Note: all journals are indexed by ERIH plus, MLA, and SCOPUS. Most of the journals are open-access. Otherwise, a link to the author version of the article is provided.
 
