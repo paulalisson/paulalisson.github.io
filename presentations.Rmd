@@ -2,13 +2,17 @@
 title: "Presentations"
 ---
 ## Talks
-1. **Lissón, P.**, Ballier, N. & Gerdes, K. (2019).On relativizer use in French learners of English: a corpus-based study. *5th Learner Corpus Research Conferene (LCR 2019)* Warsaw, Poland.
+-  **Lissón, P.**, Pregla, D., Paape, D., Nicenboim, B., Stadie, N., Burchert., F. & Vasishth, S. (2020). Computational models of retrieval processes in sentence comprehension in aphasia. *26th Architectures and Mechanisms for Language Processing (AMLaP)*, Potsdam, Germany (held online due to COVID-19).
 
-2. Ballier, N. & **Lissón, P.** (2017). A corpus-based evaluation of readability metrics as indices of syntactic complexity in EFL learners’ written productions. *4th Learner Corpus Research Conferene (LCR 2017)*, Bolzano, Italy. [[abstract]](https://www.academia.edu/32530619/A_corpus-based_evaluation_of_readability_metrics_as_indices_of_syntactic_complexity_in_EFL_learners_written_productions_LCR_2017_abstract_)
+- **Lissón, P.**, Ballier, N. & Gerdes, K. (2019). On relativizer use in French learners of English: a corpus-based study. *5th Learner Corpus Research Conferene (LCR 2019)* Warsaw, Poland.
 
-3. Ballier, N. & **Lissón, P.** (2017). Estudio de la aplicabilidad de la ley de Zipf y la ley de Heaps en los corpus de aprendientes de inglés. *International Conference of Corpus Linguistics (CILC 2017)*, France.
+- Ballier, N. & **Lissón, P.** (2017). A corpus-based evaluation of readability metrics as indices of syntactic complexity in EFL learners’ written productions. *4th Learner Corpus Research Conferene (LCR 2017)*, Bolzano, Italy. [[abstract]](https://www.academia.edu/32530619/A_corpus-based_evaluation_of_readability_metrics_as_indices_of_syntactic_complexity_in_EFL_learners_written_productions_LCR_2017_abstract_)
+
+- Ballier, N. & **Lissón, P.** (2017). Estudio de la aplicabilidad de la ley de Zipf y la ley de Heaps en los corpus de aprendientes de inglés. *International Conference of Corpus Linguistics (CILC 2017)*, France.
 
 ## Posters 
+- Pregla, D., *Lissón, P.*, Vasishth, S., Burchert., F., Stadie, N. (2020). Sentence comprehension in German speaking individuals with aphasia: A study using varying structures, tasks and test points. *26th Architectures and Mechanisms for Language Processing (AMLaP)*, Potsdam, Germany (held online due to COVID-19).
+
 - *Lissón, P.*, van het Nederend, M., Nicenboim, B., Pregla, D., Paape, D., & Vasishth, S. (2019). Competing models of retrieval in sentence processing: The case of aphasia. To be presented at the *25th Architectures and Mechanisms for Language Processing (AMLaP)*, Moscow, Russia. [[poster]](https://www.dropbox.com/s/ll8ol2t9lw37qjo/amlap_2019.pdf?dl=0)
 
 - **Lissón, P.**, Nicenboim, B., Vasishth, S., & Paape, D. (2019). Models of retrieval in sentence comprehension in aphasia. *StanCon*, Cambridge, UK. [[poster]](https://www.dropbox.com/s/n9wiz3a0otmnjo9/stancon2019.pdf?dl=0)
