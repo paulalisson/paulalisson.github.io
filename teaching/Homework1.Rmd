@@ -2,9 +2,9 @@
 title: "Homework 1"
 author: 'null'
 output:
+  pdf_document: default
   html_document:
     df_print: paged
-  pdf_document: default
 ---
 
 This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
@@ -18,15 +18,7 @@ Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by press
 
 When you are done with the homework, Knit the file by cliking on the **Knit** icon on the upper part of the script pannel, then select **knit to pdf** (if you have LaTeX installed) or **knit to html** and upload the file to the moodle page (or if you can't upload it send it to paula.lisson@uni-potsdam.de). The knitted file will be stored in your working directory. You can check your working directory in R by running the function getwd(), but if you did everything correctly and created a new project as indicated in the lecture, the working directory should be where the project is located. 
 
-Part 1
-========================================================
 1. On top of the file, write your name instead of "null" (**author: "null"**).
-2. Conceptual warm-up: read pages 1-10 of the tutorial by Danielle Navarro: https://compcogscisydney.org/lsr/lsr-0.6.pdf (for the purpose of this class, whenever the author says 'psychology' you can imagine it says 'linguistics'). Now write in some lines why do you think statistics is relevant in linguistics/in your (future) research.
-
-**Answer:**
-
-Part 2
-========================================================
 
 2. Calculate the square root of 543 
 
@@ -43,10 +35,11 @@ Part 2
 8. This is a function: lm() . Use the function help to know what 
 the function does. What package does the function belong to?
 
-9. Install the following packages: MASS, ggplot2, stats. Then, load them. When do you have to install the packages and how often do you have to load them?
+9. When do you have to install the packages and how often do you have to load them?
 
 10. How many types of data can atomical vectors contain? And matrices? And arrays? And data frames?
 
 11. What is a histogram? Why is it useful?
 
 12. Generate 300 random datapoints from a normal distribution. You choose the mean and the sd. Then plot a histogram of the data. Change the number of bins. Describe what happens when you change the number of bins. 
+

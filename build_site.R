@@ -1,5 +1,5 @@
 
-setwd("/Users/paulalisson/Dropbox/paulalisson.github.io")
+setwd("./Dropbox/paulalisson.github.io")
 
 rmarkdown::render_site()
 

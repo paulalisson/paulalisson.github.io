@@ -3,7 +3,7 @@ title: "Teaching"
 ---
 
 # Intro to R - Universität Potsdam
-Short intro course on base R for the class "Introduction to Statistics" (taught by Prof. Dr. Vasishth) in the WiSe 2018. For the homework, remember to "download linked file"" in order to download the R notebook. 
+Short intro course on base R for the class "Introduction to Statistics" (taught by Prof. Dr. Vasishth) in the WiSe 2020. For the homework, remember to "download linked file" in order to download the R notebook. 
 
 - [Lecture 1](IntroStats1.html) and [Homework 1](Homework1.Rmd)
-- [Lecture 2](IntroStats2.html) and [Homework 2](Homework2.Rmd)
+<!-- - [Lecture 2](IntroStats2.html) and [Homework 2](Homework2.Rmd) -->
