@@ -2,7 +2,7 @@
 title: "Presentations"
 ---
 ## Talks
--  **Lissón, P.**, Pregla, D., Paape, D., Nicenboim, B., Stadie, N., Burchert., F. & Vasishth, S. (2020). Computational models of retrieval processes in sentence comprehension in aphasia. *26th Architectures and Mechanisms for Language Processing (AMLaP)*, Potsdam, Germany (held online due to COVID-19).[[abstract]](https://amlap2020.github.io/a/237.pdf)
+-  **Lissón, P.**, Pregla, D., Paape, D., Nicenboim, B., Stadie, N., Burchert., F. & Vasishth, S. (2020). Computational models of retrieval processes in sentence comprehension in aphasia. *26th Architectures and Mechanisms for Language Processing (AMLaP)*, Potsdam, Germany (held online due to COVID-19).[[abstract]](https://amlap2020.github.io/a/237.pdf) [[Recording]](https://mediaup.uni-potsdam.de/Play/Chapter/248) (it starts at 01:41:32)
 
 - **Lissón, P.**, Ballier, N. & Gerdes, K. (2019). On relativizer use in French learners of English: a corpus-based study. *5th Learner Corpus Research Conferene (LCR 2019)* Warsaw, Poland.
 
