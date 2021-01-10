@@ -1,9 +1,11 @@
 ---
 title: "Publications"
 ---
+## Preprints
+Pregla, D., **Lissón**, P., Vasishth, S., Burchert, F., & Stadie, N. (2020, September 18). Variability in sentence comprehension in aphasia in German. https://doi.org/10.31234/osf.io/7hfpx
 
 ## In peer-reviewed journals
-- **Lisson, P.**, Pregla, D., Nicenboim, B., Paape, D., van het Nederend, M. L., Burchert, F., Stadie, N., Caplan, D.,  Vasishth, S. (in press). A computational evaluation of two models of retrieval processes in sentence processing in aphasia. *Cognitive Science*. [[arXiv]](https://doi.org/10.31234/osf.io/r7dn5)
+- **Lissón, P.**, Pregla, D., Nicenboim, B., Paape, D., van het Nederend, M. L., Burchert, F., Stadie, N., Caplan, D.,  Vasishth, S. (in press). A computational evaluation of two models of retrieval processes in sentence processing in aphasia. *Cognitive Science*. [[arXiv]](https://doi.org/10.31234/osf.io/r7dn5)
 
 - Arnold, T., Ballier, N., **Lissón, P.**, & Tilton, L. (2019). Beyond Lexical Frequencies: Using R for Text Analysis in the Digital Humanities. *Language Resources and Evaluation, 53(4), 707-733.* [[link]](https://doi.org/10.1007/s10579-019-09456-6) [[author version]](https://statsmaths.github.io/pdf/2018-beyond-lex.pdf)
 
