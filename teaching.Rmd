@@ -3,7 +3,8 @@ title: "Teaching"
 ---
 
 # Intro to R - Universität Potsdam
-Short R intro course. For the homework, remember to "download linked file"" in order to download the R notebook. 
+Short R intro that I usually teach during the first weeks of the Statistics courses at Uni Potsdam. 
 
-- [Lecture 1](IntroStats1.html) and [Homework 1](Homework1.Rmd)
-- [Lecture 2](IntroStats2.html) and [Homework 2](Homework2.Rmd)
+- [Intro 1](IntroStats1.html) 
+- [Intro 2](IntroStats2.html) 
+- [Intro 3](IntroStats3.html) 
